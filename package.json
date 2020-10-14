@@ -1,5 +1,14 @@
 {
-  "author": "Fedor Shubin (VedideV)",
+  "authors": [
+    {
+      "name": "Fedor Shuvin",
+      "url": "https://github.com/vedi"
+    },
+    {
+      "name": "Melvyn Kim",
+      "url": "https://github.com/melvynkim"
+    }
+  ],
   "dependencies": {
     "ajv": "^6.11.0",
     "apidoc": "^0.20.1",
