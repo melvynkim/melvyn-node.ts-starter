@@ -41,7 +41,7 @@
     "ts-node": "^8.9.1",
     "typescript": "^3.7.5"
   },
-  "description": "Restifizer Starter Backend",
+  "description": "melvyn-node.ts-starter",
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
     "@types/chai": "^4.2.8",
@@ -82,10 +82,14 @@
   },
   "engines": {
     "node": "12.x.x",
-    "yarn": "1.21.x"
+    "yarn": "1.22.5"
   },
   "license": "MIT",
-  "name": "restifizer-starter-backend",
+  "name": "melvyn-node.ts-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvynkim/melvyn-node.ts-starter"
+  },
   "scripts": {
     "apidoc": "apidoc -f \".*\\.js$\" -f \".*\\.ts$\" -i app/ -o apidocs",
     "bump-version": "yarn version --new-version",
@@ -97,5 +101,5 @@
     "start": "node runner.js server",
     "test": "yarn migrate-test-db && cross-env NODE_ENV=test LOGGER_SUPPRESS_STDOUT=true mocha"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
